@@ -1,4 +1,4 @@
-import {Store} from "./libs/redux-observable/store";
+// import {Store} from "./libs/redux-observable/store";
 import {ModuleConfig} from "../../core/module-config-interface";
 
 const name = "__FRAMEWORK_REDUX__";
@@ -8,7 +8,7 @@ function boot() {
 }
 
 const services: any = [
-  Store
+//   Store
 ];
 
 export const __FRAMEWORK_REDUX__: ModuleConfig = {
