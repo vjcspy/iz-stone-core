@@ -33,7 +33,7 @@
     "clean": "trash build test",
     "all": "run-s reset test cov:check doc:html",
     "all1": "run-s cov:check doc:html",
-    "prepare-release": "run-s all version doc:publish",
+    "prepare-release": "run-s all1 version doc:publish",
     "dev": "webpack-dev-server --open"
   },
   "scripts-info": {
