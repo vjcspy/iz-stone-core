@@ -2,7 +2,7 @@ import "rxjs";
 import {Action, Redux} from "../../index";
 import {Observable} from "rxjs/index";
 import {distinctUntilChanged, map, share} from "rxjs/internal/operators";
-import {Injectable} from "../../../..";
+import {Injectable} from "../../../../core/app";
 
 @Injectable()
 export class Store {

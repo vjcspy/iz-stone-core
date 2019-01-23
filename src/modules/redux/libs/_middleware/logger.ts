@@ -1,4 +1,4 @@
-import {app} from "../../../..";
+import {app} from "../../../../core/app";
 
 export const logger = (store: any) => (next: any) => (action: any) => {
   if (app().isDevelopMode()) {
