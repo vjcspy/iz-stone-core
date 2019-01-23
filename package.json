@@ -32,7 +32,7 @@
     "reset": "git clean -dfx && git reset --hard && npm i",
     "clean": "trash build test",
     "all": "run-s reset test cov:check doc:html",
-    "all1": "run-s test cov:check doc:html",
+    "all1": "run-s cov:check doc:html",
     "prepare-release": "run-s all version doc:publish",
     "dev": "webpack-dev-server --open"
   },
